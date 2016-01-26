@@ -1,0 +1,276 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#ebebeb;
+    /*background-image:url("images/GoodInc.png");*/
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+
+.fl-left{
+    float:left;
+}
+.fl-right{
+    float:right;
+}
+.rotate90deg{
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.container{
+    margin:0 auto;
+    width:960px;
+    position:relative;
+}
+.head{
+    height:67px;
+    background-color:#373737;
+    position:relative;
+    color:#fff;
+}
+.head .logo{
+    width:80px;
+    height:67px;
+    background-color:#f3785d;
+    font-family:'Palatino Linotype',serif;
+    font-size:36px;
+    text-align:center;
+}
+.head .logo-trg-r{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid #f3785d;
+    border-bottom: 10px solid transparent;
+    margin:20px 0;
+}
+.head .inc{
+    font-size:18px;
+    font-family:'Palatino Linotype',serif;
+    padding:18px 10px;
+}
+.head .btn{
+    font-family:'Myriad Pro Regular',serif;
+    font-size:12px;
+    background-color:#fff;
+    float:right;
+    margin-top:14px;
+    line-height:36px;
+}
+.head .btn a:hover{
+    background-color:#efefef;
+    text-decoration:underline;
+    color:#f3785d;
+}
+.head .btn a{
+    display:block;
+    color:#727272;
+}
+.head .btn img{
+    padding:8px 16px;
+    float:left;
+}
+.head .btn-news{
+    width:180px;
+    height:36px;
+    margin-right:20px;
+}
+
+.head .btn-clock{
+    width:146px;
+    height:36px;
+}
+.head .icon{
+    width:36px;
+    height:35px;
+    float:right;
+    background-color:#efefef;
+    border-bottom:1px solid #e2e2e2;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    font-size:15px;
+    text-align:center;
+}
+.main-menu{
+    height:70px;
+    background-color:#474747;
+}
+.main-menu a{
+    color:#fff;
+    display:block;
+    font-size:10pt;
+    font-family:'Myriad Pro',serif;
+}
+.main-menu li{
+    display:inline-block;
+    margin-top:20px;
+    border-right:1px solid #b3b3b3;
+    width:94px;
+    text-align:center;
+    float:left;
+}
+.main-menu li:last-child{
+    border:none;
+}
+.main-menu img[name='icon']{
+    float:left;
+    padding-top:20px;
+    padding-left:35px;
+    padding-right:10px;
+}
+.main-menu .quick-btn{
+    width:125px;
+    border-right:1px solid #b3b3b3;
+    text-align:center;
+    height:25px;
+    margin-top:20px;
+    line-height:25px;
+}
+.main-menu .quick-btn img{
+    float:right;
+    padding-top:0;
+    padding-right:16px;
+}
+.main-menu .select-btnF{
+    text-align:center;
+    height:25px;
+    margin-top:20px;
+    line-height:25px;
+    padding-right:20px;
+    padding-left:29px;
+}
+.main-menu .select-btn .icon-nav{
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+
+}
+
+
+.main-menu .user-table{
+    margin-top:10px;
+    background-color:#fff;
+    color:grey;
+    width:238px;
+}
+#showEdit{
+    float:left;
+    margin-left:5px;
+}
+.user-table #avatar{
+    width:50px;
+    padding:2px;
+    float:left;
+}
+.main-menu .login{
+    margin-top:3px;
+    width:90px;
+}
+.main-menu .login input[name='loginAth']{
+    border:none;
+    padding:3px;
+}
+/*input[name='loginReg']{
+    border:none;
+    padding:3px;
+}
+input[name='passwordReg']{
+    border:none;
+    padding:3px;
+}*/
+.main-menu .login input[name='passwordAth']{
+    margin-top:3px;
+    border:none;
+    padding:3px;
+}
+.user-table .user-button{
+    width:53px;
+}
+.user-table .user-button a{
+    background-color:#f3785d;
+    font-weight:bold ;
+    margin:3px;
+    padding:3px;
+    display:block;
+    width:78px;
+}
+input[name='exit'], input[name='submitAth']{
+    border:none;
+    background-color:#f3785d;
+    color:white;
+    font-weight:bold ;
+    margin:3px;
+    padding:3px;
+}
+
+.registration{
+    width:640px;
+    height:320px;
+    margin-left:160px;
+    padding-top:20px;
+    background-color:white;
+    position:absolute;
+}
+.registration .label-reg{
+    width:214px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left:15px;
+    padding-top:15px;
+}
+.registration .input-reg{
+    padding-top:10px;
+}
+.registration .input-reg input{
+    height:30px;
+}
+input[name='submitReg']{
+    border:none;
+    padding:5px;
+    background-color:grey;
+    color:white;
+}
+.container .tools{
+    width:640px;
+    height:320px;
+    margin-left:160px;
+    padding:20px;
+    background-color:white;
+    position:absolute;
+}
+.tools .avatar #avatar{
+    width:100px;
+    padding:2px;
+}
+.avatar{
+    width:150px;
+}
+.edit{
+    width:300px;
+}
+.tools .edit .form{
+    height:30px;
+    margin-top:10px;
+}
+.tools .edit span{
+    margin-left:10px;
+}
+input[name='submitEdit']{
+    border:none;
+    padding:5px;
+    background-color:grey;
+    color:white;
+    margin-top:20px;
+    margin-left:50px;
+}
+.tools .data img{
+    float:left;
+}
